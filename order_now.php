@@ -1,4 +1,9 @@
-<?php $menu_items = [
+<?php
+
+echo '<pre>';
+print_r($_POST);
+echo '</pre>';
+$menu_items = [
     "apetizers" => [
         [
             "name" => "Chicken Wings",
